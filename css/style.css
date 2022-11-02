@@ -1172,8 +1172,23 @@ player .olnumber {
   .bright__img-box {
     margin-top: 126px;
   }
+  .main__bright {
+    margin-bottom: 550px;
+  }
+  .main__lasttracks {
+    position: relative;
+  }
   .lasttracks__img-box {
-    display: none;
+    position: absolute;
+    top: -360px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    box-shadow: 0px 0px 0 15px rgba(122, 102, 204, 0.6), 0px 0px 0 30px rgba(122, 102, 204, 0.3);
+  }
+  .lasttracks__img-box img {
+    width: 300px;
+    height: 300px;
   }
   .lasttracks__inner {
     justify-content: center;
@@ -1231,8 +1246,17 @@ player .olnumber {
   .bright__inner {
     justify-content: center;
   }
+  .bright__inner {
+    margin-bottom: 520px;
+  }
   .quote__img {
-    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-94%);
+    top: 0%;
+    border-radius: 30px 0px;
+    width: 308.3333333333px;
+    height: 402.5px;
   }
   .quote__content {
     max-width: 100%;
@@ -1316,6 +1340,18 @@ player .olnumber {
   .footer__name-email-bottom div:first-child {
     flex-basis: 100%;
   }
+  .bright__inner {
+    margin-bottom: 430px;
+  }
+  .quote__img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-94%);
+    top: 0%;
+    border-radius: 30px 0px;
+    width: 284.6153846154px;
+    height: 371.5384615385px;
+  }
 }
 @media (max-width: 450px) {
   .header__top {
@@ -1351,6 +1387,21 @@ player .olnumber {
   .lasttracks__title {
     margin-bottom: 0px;
   }
+  .main__bright {
+    margin-bottom: 450px;
+  }
+  .lasttracks__img-box {
+    position: absolute;
+    top: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    box-shadow: 0px 0px 0 12px rgba(122, 102, 204, 0.6), 0px 0px 0 24px rgba(122, 102, 204, 0.3);
+  }
+  .lasttracks__img-box img {
+    width: 200px;
+    height: 200px;
+  }
   .slider__content {
     padding: 30px 0 0 10px;
   }
@@ -1359,5 +1410,17 @@ player .olnumber {
   }
   .footer__contacts {
     font-size: 16px;
+  }
+  .bright__inner {
+    margin-bottom: 400px;
+  }
+  .quote__img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-94%);
+    top: 0%;
+    border-radius: 30px 0px;
+    width: 246.6666666667px;
+    height: 322px;
   }
 }
